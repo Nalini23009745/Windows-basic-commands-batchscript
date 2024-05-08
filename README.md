@@ -30,6 +30,8 @@ Create a directory named "MyLab" on the desktop.
 
 ## COMMAND AND OUTPUT
 mkdir %userprofile%\Desktop\MyLab
+
+
 ![image](https://github.com/Nalini23009745/Windows-basic-commands-batchscript/assets/149347484/0ccaae11-06d7-43a4-8fa0-6e3250ad1ebb)
 
 Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
@@ -37,6 +39,8 @@ Change to the "MyLab" directory and create an empty text file named "MyFile.txt"
 
 ## COMMAND AND OUTPUT
 cd %userprofile%\Desktop\MyLab
+
+
 ![image](https://github.com/Nalini23009745/Windows-basic-commands-batchscript/assets/149347484/783930bf-10aa-4ff1-917c-5d20f43a79bb)
 ![image](https://github.com/Nalini23009745/Windows-basic-commands-batchscript/assets/149347484/2680caac-3ad6-4c2a-bf00-b0e341d40d7e)
 
@@ -47,6 +51,8 @@ List the contents of the "MyLab" directory.
 
 ## COMMAND AND OUTPUT
 dir %userprofile%\Desktop\MyLab
+
+
 ![image](https://github.com/Nalini23009745/Windows-basic-commands-batchscript/assets/149347484/cbdc6990-1ce4-414d-acf2-8c8252a13c12)
 
 Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
@@ -54,6 +60,8 @@ Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
 ## COMMAND AND OUTPUT
 mkdir %userprofile%\Desktop\Backup
 copy MyFile.txt %userprofile%\Desktop\Backup
+
+
 ![image](https://github.com/Nalini23009745/Windows-basic-commands-batchscript/assets/149347484/dafda859-55ae-4269-b184-3b0aa684fb99)
 ![image](https://github.com/Nalini23009745/Windows-basic-commands-batchscript/assets/149347484/e5678769-6fbb-4b26-a950-2df21e664268)
 
@@ -62,6 +70,8 @@ Move the "MyLab" directory to the "Documents" folder.
 
 ## COMMAND AND OUTPUT
 mv Myfile.txt %userprofile%\Documents
+
+
 ![image](https://github.com/Nalini23009745/Windows-basic-commands-batchscript/assets/149347484/d1752880-a3ed-4306-8956-47ef3fb3944a)
 
 
